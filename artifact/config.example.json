@@ -1,0 +1,17 @@
+{
+  "_comment_id_and_secret": "populate Client ID and Secret with the API key generated from API access tab in UniView portal",
+  "_comment_url":"The Auth and Client URL will remain the same for any UniView EPBv2 portal, tenancy doesn't change the public API endpoint you authorize and request data from",
+  "_comment_client_url":"This url can take multiple different switches. id, name, customer_id, order_by, order_direction, page_number, page_size. Refer https://apidoc-public-api.backup.net/swagger-ui-v2/index.html ",
+  "AUTH_URL": "https://login.backup.net/connect/token",
+  "CLIENT_URL": "https://public-api.backup.net/api/epb/v1/assets?page_size=300",
+  "CLIENT_ID": "<Enter client ID from UniView API Access tab>",
+  "CLIENT_SECRET": "<Enter client secret from UniView API Access tab>",
+  "SMTP_HOST": "example.smtp.com",
+  "SMTP_PORT": 2525,
+  "SMTP_USER": "<enter smtp username>",
+  "SMTP_PASS": "<enter smtp user password>",
+  "SMTP_FROM": "<enter smtp from address>",
+  "SMTP_USE_STARTTLS": true,
+  "SMTP_USE_SSL": false,
+  "EMAIL_RECIPIENT": "<enter recipient email address>"
+}
