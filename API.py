@@ -203,7 +203,7 @@ def main():
     # quick_checks(rows_sorted)                                                         #uncomment out if you want to save what you're pulling from API to logs
 
     # save to artifact/assets_rows.json
-    out_dir = Path.cwd() / "artifact"
+    out_dir = Path(__file__).resolve().parent / "artifact"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_file = out_dir / "assets_rows.json"
 
@@ -245,3 +245,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
